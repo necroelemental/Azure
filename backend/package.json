@@ -1,19 +1,15 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "src/functions/*.js",
+  "description": "Azure Functions for Azure Cloud Explorer",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
-    "@azure/functions": "^4.7.2"
+    "@azure/functions": "^3.5.0"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
