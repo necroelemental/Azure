@@ -1,17 +1,15 @@
 {
   "bindings": [
     {
-      "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
-      "name": "req",
+      "authLevel": "anonymous",  
       "methods": ["get"],
       "route": "azure-resources"
     },
     {
       "type": "http",
-      "direction": "out",
-      "name": "res"
+      "direction": "out"
     }
   ]
 }

@@ -1,13 +1,14 @@
 {
-  "name": "backend",
+  "name": "azure-functions-project",
   "version": "1.0.0",
-  "description": "Azure Functions for Azure Cloud Explorer",
+  "description": "Proyecto de Azure Functions para simular recursos de Azure",
+  "main": "index.js",  
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/functions": "^3.5.0"
+    "@azure/functions": "^4.0.0"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"
