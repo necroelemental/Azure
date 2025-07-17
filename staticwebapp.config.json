@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "methods": ["GET"],
+      "allowedRoles": ["anonymous"],
+      "rewrite": "/backend/*"
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  }
+}
